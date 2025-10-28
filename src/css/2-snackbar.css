@@ -1,0 +1,88 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 25px;
+  margin-top: 10px;
+  border: 2px solid #b7aef7;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.form input[type="number"] {
+  margin-top: 6px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+legend {
+  font-weight: 600;
+  color: #333;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 8px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="radio"] {
+  accent-color: #6b4ce6;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #6b4ce6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #5940c0;
+}
